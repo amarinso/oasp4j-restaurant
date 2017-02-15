@@ -112,13 +112,12 @@
       </resource>
     </resources>
     <plugins>
-              <!-- 
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
             <configuration>
-              <mainClass>eu.anmaso.mysample.SpringBootApp</mainClass>
-              <classifier>bootified</classifier>
+              <mainClass>io.oasp.gastronomy.restaurant.SpringBootApp</mainClass>
+	      <classifier>bootified</classifier>
               <finalName>app</finalName>
             </configuration>
                                 <executions>
@@ -129,6 +128,7 @@
           </execution>
         </executions>
       </plugin>
+              <!-- 
                -->
 
     </plugins>
